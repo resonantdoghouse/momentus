@@ -1,0 +1,104 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --main-bg-img: url('https://placekitten.com/1920/1080') center/cover;
+}
+
+html,
+body {
+  background: #555;
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app {
+  background: var(--main-bg-img);
+  text-align: center;
+  min-height: 100vh;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.app__title {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+  font-size: 4rem;
+  margin: 0.625rem;
+}
+
+.image-form__input, .image-form__submit {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 0.625rem;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+.image-form__input:focus, .image-form__submit:focus {
+  border: 1px solid black;
+  outline: none;
+}
+
+.image-form__input::-webkit-input-placeholder, .image-form__submit::-webkit-input-placeholder {
+  color: white;
+}
+
+.image-form__input:-ms-input-placeholder, .image-form__submit:-ms-input-placeholder {
+  color: white;
+}
+
+.image-form__input::-ms-input-placeholder, .image-form__submit::-ms-input-placeholder {
+  color: white;
+}
+
+.image-form__input::placeholder, .image-form__submit::placeholder {
+  color: white;
+}
+
+.weather {
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.625rem;
+}
+
+.weather__text {
+  margin: 0;
+}
+
+.time {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+  background: rgba(255, 255, 255, 0.15);
+  font-size: 4rem;
+  padding: 0 0.625rem;
+  margin: 0.625rem;
+}
+
+.quote {
+  background: rgba(255, 255, 255, 0.75);
+  color: #111;
+  padding: 0 0.625rem;
+  font-size: 1.5rem;
+  max-width: 500px;
+  margin: auto auto 0.625rem auto;
+}
+/*# sourceMappingURL=App.css.map */
