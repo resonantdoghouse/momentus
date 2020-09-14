@@ -1,3 +1,9 @@
+# Momentus
+
+A React Application inspired by the Momentum browser app.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9b78df9a-f840-4d4f-8b42-d339b2e9463a/deploy-status)](https://app.netlify.com/sites/react-momentus/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
